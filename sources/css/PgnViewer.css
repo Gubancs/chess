@@ -1,0 +1,110 @@
+figure {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px
+}
+.pgn-component {
+  position: relative;
+  display: block;
+}
+
+.pgn-viewer {
+  background-color: #353535;
+
+  border: 1px lightgray solid;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  float: left;
+  visibility: hidden;
+}
+
+.pgn-chessboard {
+  width: 480px;
+  height: 480px;
+  border: 1px #efefef solid;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 20px 8px #000000;
+  position: relative;
+}
+
+.pgn-square {
+  width: 60px;
+  height: 60px;
+  float: left;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+.pgn-square div {
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pgn-dark {
+  background: linear-gradient(to bottom right, #B1B1B1, #D2D2D2);
+}
+
+.pgn-light {
+  background: linear-gradient(to bottom left, #FFFFFF, #E6E6E6);
+}
+
+.pgn-piece-bp {
+  background-image: url("../pieceset/bp.png");
+}
+
+.pgn-piece-bn {
+  background-image: url("../pieceset/bn.png");
+}
+
+.pgn-piece-bb {
+  background-image: url("../pieceset/bb.png");
+}
+
+.pgn-piece-br {
+  background-image: url("../pieceset/br.png");
+}
+
+.pgn-piece-bk {
+  background-image: url("../pieceset/bk.png");
+}
+
+.pgn-piece-bq {
+  background-image: url("../pieceset/bq.png");
+}
+
+.pgn-piece-wp {
+  background-image: url("../pieceset/wp.png");
+}
+
+.pgn-piece-wn {
+  background-image: url("../pieceset/wn.png");
+}
+
+.pgn-piece-wb {
+  background-image: url("../pieceset/wb.png");
+}
+
+.pgn-piece-wr {
+  background-image: url("../pieceset/wr.png");
+}
+
+.pgn-piece-wk {
+  background-image: url("../pieceset/wk.png");
+}
+
+.pgn-piece-wq {
+  background-image: url("../pieceset/wq.png");
+}
+
+.pgn-highlight {
+  border: 1px #18FFEF solid;
+  box-shadow: 0px 0px 20px 4px #9BFFDF;
+  position: relative;
+  z-index: 1;
+}
